@@ -1,0 +1,99 @@
+/*Zoom style sheet*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cantarell', sans-serif;
+	font-family: 'Sonsie One', cursive;
+}
+
+/*background image*/
+html {
+	background: linear-gradient(to bottom, rgba(179,13,166,0), rgba(179,13,166,0.8)) no-repeat bottom fixed, url("zoom_pics/new_york_city_at_night-wallpaper-3840x2160.jpg") no-repeat	center fixed;
+	background-size: cover, cover;
+}
+
+/*logo image*/
+.logo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 123px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+/*company name*/
+.name {
+	font-family: 'Sonsie One', cursive;
+	font-size: 30px;
+	color: #fff;
+	width: 95px;
+	height: 45px;
+	position: absolute;
+	top: 215px;
+	left: 50%;
+	margin-left: -55px;
+}
+
+
+/*company motto*/
+.motto {
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	width: 220px;
+	height: 49px;
+	position: absolute;
+	top: 295px;
+	left: 50%;
+	margin-left: -110px;
+}
+
+/*login button*/
+.login-btn {
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border: solid;
+	border-color: #fff;
+	border-width: 1px;
+	border-radius: 0.5px;
+	width: 60px;
+	height: 35px;
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	margin-left: -30px;
+	color: #fff;
+}
+
+/*register button*/
+.register-btn {
+	font-family: 'Cantarell', sans-serif;
+	background-color: #b30da6;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border: solid;
+	border-color: #fff;
+	border-width: 1px;
+	border-radius: 0.5px;
+	width: 85px;
+	height: 35px;
+	position: absolute;
+	top: 70%;
+	right: 30%;
+	margin-right: -35px;
+	color: #fff;
+}
+
+#btn:hover{
+	box-shadow: 12px 12px 18px -6px #111;
+}
+
+
