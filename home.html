@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Zoom</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Sonsie+One" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		function openSlideMenu(){
+			document.getElementById('menu').style.width = '250px';
+			document.getElementById('content').style.marginLeft = '250px';
+		}
+		function closeSlideMenu(){
+			document.getElementById('menu').style.width = '0';
+			document.getElementById('content').style.marginLeft = '0';
+		}
+
+	</script>
+</head>
+<body>
+	<img src="zoom_pics/LogoMakr_8d0EqO[1].png" class="logo">
+	<div class="name-registry">zoom</div>
+
+	<div class="welcome">
+		<p class="hi">Hi,</p>
+		<p class="username">Username.</p>
+	</div>
+
+	<div id="content">
+		<ul class="navbar">
+			<li id="bars" class="slide">
+				<a href="#" onclick="openSlideMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</li>
+			<li class="navbar-name">zoom</li>
+			<li id="search" class="slide">
+				<a href="#">
+					<i class="fas fa-search"></i>
+				</a>
+			</li>
+		</ul>
+
+		<div id="menu" class="nav">
+			<a id="options" href="#" class="close" onclick="closeSlideMenu()">
+				<i class="fas fa-times"></i>
+			</a>
+			<a id="options" href="edit-account.html">Edit Account</a>
+			<a id="options" href="create-order.html">Create Order</a>
+			<a id="options" href="my-orders.html">My Orders</a>
+			<a id="options" href="logout.html">Logout</a>
+			<div class="social">
+				<a href="#">
+					<img class="pins" src="zoom_pics/purple facebook.png">
+				</a>
+				<a href="#">
+					<img class="pins" src="zoom_pics/purple twitter.png">
+				</a>
+				<a href="#">
+					<img class="pins" src="zoom_pics/purple linkedin.png">
+				</a>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
+
