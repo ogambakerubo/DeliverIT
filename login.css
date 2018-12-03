@@ -1,219 +1,215 @@
 /*Zoom style sheet*/
 body {
-	margin: 0;
-	padding: 0;
-	font-family: 'Cantarell', sans-serif;
-	font-family: 'Sonsie One', cursive;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cantarell', sans-serif;
+  font-family: 'Sonsie One', cursive;
 }
 
 /*background image*/
 .background {
-	background: linear-gradient(to bottom, rgba(179,13,166,0), rgba(179,13,166,0.8)) no-repeat bottom fixed, url("zoom_pics/new_york_city_at_night-wallpaper-3840x2160.jpg") no-repeat	center fixed;
-	background-size: cover, cover;
+  background: linear-gradient(to bottom, rgba(179, 13, 166, 0), rgba(179, 13, 166, 0.8)) no-repeat bottom fixed, url("zoom_pics/new_york_city_at_night-wallpaper-3840x2160.jpg") no-repeat center fixed;
+  background-size: cover, cover;
 }
 
 /*logo image*/
 .logo {
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	top: 70px;
-	left: 50%;
-	margin-left: -50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -50px;
 }
 
 /*company name*/
 .name {
-	font-family: 'Sonsie One', cursive;
-	font-size: 30px;
-	color: #fff;
-	width: 95px;
-	height: 45px;
-	position: absolute;
-	top: 160px;
-	left: 50%;
-	margin-left: -55px;
+  font-family: 'Sonsie One', cursive;
+  font-size: 30px;
+  color: #fff;
+  width: 95px;
+  height: 45px;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: -55px;
 }
-
 
 /*company motto*/
 .motto {
-	font-family: 'Cantarell', sans-serif;
-	font-weight: 900;
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	width: 220px;
-	height: 49px;
-	position: absolute;
-	top: 295px;
-	left: 50%;
-	margin-left: -110px;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  width: 220px;
+  height: 49px;
+  position: absolute;
+  top: 295px;
+  left: 50%;
+  margin-left: -110px;
 }
 
 /*login button*/
 .login-btn {
-	font-family: 'Cantarell', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	text-align: center;
-	text-decoration: none;
-	border: solid;
-	border-color: #fff;
-	border-width: 1px;
-	border-radius: 0.5px;
-	width: 60px;
-	height: 35px;
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	margin-left: -30px;
-	color: #fff;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 0.5px;
+  width: 60px;
+  height: 35px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-left: -30px;
+  color: #fff;
 }
 
 /*register button*/
 .register-btn {
-	font-family: 'Cantarell', sans-serif;
-	background-color: #b30da6;
-	font-weight: 400;
-	font-size: 20px;
-	text-align: center;
-	text-decoration: none;
-	border: solid;
-	border-color: #fff;
-	border-width: 1px;
-	border-radius: 0.5px;
-	width: 85px;
-	height: 35px;
-	position: absolute;
-	bottom: 10%;
-	right: 50%;
-	margin-right: -42.5px;
-	color: #fff;
+  font-family: 'Cantarell', sans-serif;
+  background-color: #b30da6;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 0.5px;
+  width: 85px;
+  height: 35px;
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+  margin-right: -42.5px;
+  color: #fff;
 }
 
 /*hover effect on all buttons*/
-#btn:hover{
-	box-shadow: 12px 12px 28px 6px #111;
+#btn:hover {
+  box-shadow: 12px 12px 28px 6px #111;
 }
 
 /*company name-registry*/
 .name-registry {
-	font-family: 'Sonsie One', cursive;
-	font-size: 30px;
-	color: #b30da6;
-	width: 95px;
-	height: 45px;
-	position: absolute;
-	top: 70px;
-	left: 50%;
-	margin-left: -55px;
+  font-family: 'Sonsie One', cursive;
+  font-size: 30px;
+  color: #b30da6;
+  width: 95px;
+  height: 45px;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -55px;
 }
 
 /*createbox*/
-.createbox {   
-	width: 400px;
-  height: 420px;   
-  background: transparent; 
- 	font-family: 'Cantarell', sans-serif;
-  top: 75%;   
-  left: 50%;   
-  position: absolute;   
-  transform: translate(-50%, -50%);   
+.createbox {
+  width: 400px;
+  height: 420px;
+  background: transparent;
+  font-family: 'Cantarell', sans-serif;
+  top: 75%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
   padding: 70px 30px;
   opacity: 0.9;
-	align-items: center;
+  align-items: center;
 }
 
 /*entry labels*/
 .createbox p {
-	margin: 0;
-	padding: 0;
-	font-weight: 600;
-	font-size: 15px;
-	text-align: center;
-	color: #fff;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
 }
 
 /*line size*/
 .createbox input {
-	width: 80%;
-	margin-bottom: 16px;
-	margin-left: 40px;
+  width: 80%;
+  margin-bottom: 16px;
+  margin-left: 40px;
 }
 
 /*entry boxes*/
 .createbox input[type="text"], input[type="password"] {
-	border: none;
-	border-bottom: 1px solid #fff;
-	background: transparent;
-	outline: none;
-	height: 40px;
-	color: #fff;
-	font-size: 12px;
-	text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
 }
 
 /*submit registry*/
-.register-btn input[type="submit"]{
-	border: none;
-	outline: none;
-	border-radius: 10px;
-	height: 40px;
-	background: transparent;
-	color: #fff;
-	font-size: 16px;
-	border-size: 20px; 
-	margin-bottom: 50px;
-	align-self: center;
+.register-btn input[type="submit"] {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  border-size: 20px;
+  margin-bottom: 50px;
+  align-self: center;
 }
 
 /*placeholder color*/
 ::placeholder {
-	color: #fff;
-	opacity: 0.65;
+  color: #fff;
+  opacity: 0.65;
 }
 
 /*links styles*/
-.links p{
-	text-decoration: underline;
-	text-align: center;
-	line-height: 10px;
-	color: #fff;
-	font-family: 'Cantarell', sans-serif;
-	font-size: 15px;
+.links p {
+  text-decoration: underline;
+  text-align: center;
+  line-height: 10px;
+  color: #fff;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 15px;
 }
 
 /*links position*/
 .links {
-	position: absolute;
-	width: 280px;
-	height: 140px;
-	top: 80%;
-	left: 50%;
-	margin-left: -140px;
-	align-items: center;
-	border: 10px;
+  position: absolute;
+  width: 280px;
+  height: 140px;
+  top: 80%;
+  left: 50%;
+  margin-left: -140px;
+  align-items: center;
+  border: 10px;
 }
 
 /*links hover*/
 .links p:hover {
-	color: yellow;
+  color: yellow;
 }
 
-/*media width 440px*/
+/*media width 440px or less*/
 @media only screen and (max-width: 440px) {
-	html {
+  html {
     display: table;
     margin: auto;
-}
+  }
 
-	body {
+  body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
 }
-}
-	
-
-
