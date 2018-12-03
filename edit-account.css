@@ -5,70 +5,6 @@ body {
 	overflow: hidden;
 }
 
-/*background image
-.background {
-	background: linear-gradient(to bottom, rgba(179,13,166,0), rgba(179,13,166,0.8)) no-repeat bottom fixed, url("zoom_pics/new_york_city_at_night-wallpaper-3840x2160.jpg") no-repeat	center fixed;
-	background-size: cover, cover;
-}*/
-
-/*logo image
-.logo {
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	top: 70px;
-	left: 50%;
-	margin-left: -50px;
-}*/
-
-/*company name
-.name {
-	font-family: 'Sonsie One', cursive;
-	font-size: 30px;
-	color: #fff;
-	width: 95px;
-	height: 45px;
-	position: absolute;
-	top: 160px;
-	left: 50%;
-	margin-left: -55px;
-}*/
-
-
-/*company motto
-.motto {
-	font-family: 'Cantarell', sans-serif;
-	font-weight: 900;
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	width: 220px;
-	height: 49px;
-	position: absolute;
-	top: 295px;
-	left: 50%;
-	margin-left: -110px;
-}*/
-
-/*login button
-.login-btn {
-	font-family: 'Cantarell', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	text-align: center;
-	text-decoration: none;
-	border: solid;
-	border-color: #fff;
-	border-width: 1px;
-	border-radius: 0.5px;
-	width: 60px;
-	height: 35px;
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	margin-left: -30px;
-	color: #fff;
-}*/
 
 /*register button*/
 .register-btn {
@@ -173,32 +109,6 @@ body {
 	opacity: 0.65;
 }
 
-/*links styles
-.links p{
-	text-decoration: underline;
-	text-align: center;
-	line-height: 10px;
-	color: #fff;
-	font-family: 'Cantarell', sans-serif;
-	font-size: 15px;
-}*/
-
-/*links position
-.links {
-	position: absolute;
-	width: 280px;
-	height: 140px;
-	top: 80%;
-	left: 50%;
-	margin-left: -140px;
-	align-items: center;
-	border: 10px;
-}*/
-
-/*links hover
-.links p:hover {
-	color: yellow;
-}*/
 
 
 /*open sidenav*/
@@ -324,30 +234,19 @@ li {
 	color: #b30da6;
 }
 
-/*welcome
-.welcome {
-	display: block;
-	font-family: 'Cantarell', sans-serif;
-	margin-top: 225px;
-	margin-right: auto;
-	margin-left: auto;
-	align-content: center;
-	text-align: center;
-}*/
-
-/*hi message
-.hi {
-	font-size: 20px;
-	font-weight: 300;
-	color: #707070cc;
-}*/
-
-/*username
-.username {
-	font-size: 40px;
-	font-weight: 900;
-	color: #b30da6;
-}*/
 
 
+/*media width 440px*/
+@media only screen and (max-width: 440px) {
+	html {
+    display: table;
+    margin: auto;
+}
+
+	body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
 
