@@ -8,7 +8,7 @@ body {
 
 /*background image*/
 .background {
-  background: linear-gradient(to bottom, rgba(179, 13, 166, 0.2), rgba(179, 13, 166, 0.9)) no-repeat bottom fixed, url("zoom_pics/new_york_city_at_night-wallpaper-3840x2160.jpg") no-repeat center fixed;
+  background: linear-gradient(to bottom, rgba(179, 13, 166, 0.2), rgba(179, 13, 166, 0.9)) no-repeat bottom fixed, url("zoom_pics/Black_Iveco_Trakker_Truck_HD_Desktop_Wallpaper.jpg") no-repeat center fixed;
   background-size: cover, cover;
 }
 
