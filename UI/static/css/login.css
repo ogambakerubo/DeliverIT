@@ -1,0 +1,175 @@
+/*Zoom style sheet*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cantarell', sans-serif;
+  color: #fff;
+}
+
+/*background image*/
+html {
+  background: url("../images/Black_Iveco_Trakker_Truck_HD_Desktop_Wallpaper.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+/*logo image*/
+.logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.25em;
+}
+
+/*company name*/
+.name {
+  font-family: 'Sonsie One', cursive;
+  font-size: 30px;
+  width: 95px;
+  height: 45px;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  margin-left: -55px;
+}
+
+/*company motto*/
+.motto {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  width: 220px;
+  height: 49px;
+  position: absolute;
+  top: 295px;
+  left: 50%;
+  margin-left: -110px;
+}
+
+/*button properties*/
+#btn {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 5px;
+  position: absolute;
+  top: 72.5%;
+}
+
+/*login button*/
+.login-btn {
+  width: 60px;
+  height: 35px;
+  left: 50%;
+  margin-left: -30px;
+  color: #fff;
+  background: transparent;
+}
+
+/*hover effect on all buttons*/
+#btn:hover {
+  background: #fff;
+  color: #b30da6;
+}
+
+/*createbox*/
+.createbox {
+  width: 400px;
+  height: 250px;
+  background: #111111bf;
+  border-radius: 5px;
+  top: 65%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 30px 30px;
+  align-items: center;
+}
+
+/*entry labels*/
+.createbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*line size*/
+.createbox input {
+  width: 80%;
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+/*entry boxes*/
+.createbox input[type="text"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+
+/*placeholder color*/
+::placeholder {
+  color: #ffffffd9;
+  text-shadow: 2px 2px 5px #111;
+}
+
+/*links styles*/
+.links p {
+  text-align: center;
+  line-height: 10px;
+  font-size: 15px;
+}
+
+/*links position*/
+.links {
+  position: absolute;
+  width: 300px;
+  height: 140px;
+  top: 80%;
+  left: 50%;
+  margin-left: -150px;
+  align-items: center;
+  border: 10px;
+}
+
+/*links click here styles*/
+.links p a {
+  color: #fff;
+}
+
+/*links click here hover effect*/
+.links p a:hover {
+  color: yellow;
+}
+
+/*text shadow to increase visibility*/
+body {
+  text-shadow: 2px 2px 5px #111;
+}
+
+
+/*media width 440px or less*/
+@media only screen and (max-width: 440px) {
+  .createbox {
+    background: #111;
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
