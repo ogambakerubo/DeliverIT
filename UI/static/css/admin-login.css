@@ -36,7 +36,7 @@ html {
 }
 
 /*remove login text decoration*/
-a[href="home.html"] {
+a[href="admin-home.html"] {
   text-decoration: none;
 }
 
