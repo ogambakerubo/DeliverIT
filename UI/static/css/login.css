@@ -19,32 +19,25 @@ html {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 4.25em;
+  margin-top: 10px;
 }
 
 /*company name*/
 .name {
   font-family: 'Sonsie One', cursive;
   font-size: 30px;
-  width: 95px;
-  height: 45px;
-  position: absolute;
-  top: 160px;
-  left: 50%;
-  margin-left: -55px;
+  text-align: center;
+  width: 115px;
+  padding-left: 0;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
 }
 
-/*company motto*/
-.motto {
-  font-weight: 900;
-  font-size: 40px;
-  text-align: center;
-  width: 220px;
-  height: 49px;
-  position: absolute;
-  top: 295px;
-  left: 50%;
-  margin-left: -110px;
+/*remove login text decoration*/
+a[href="home.html"] {
+  text-decoration: none;
 }
 
 /*button properties*/
@@ -52,21 +45,16 @@ html {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  text-decoration: none;
   border: solid;
   border-color: #fff;
   border-width: 1px;
   border-radius: 5px;
-  position: absolute;
-  top: 72.5%;
-}
-
-/*login button*/
-.login-btn {
-  width: 60px;
+  margin-top: 20px;
+  width: 100px;
   height: 35px;
-  left: 50%;
-  margin-left: -30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   background: transparent;
 }
@@ -80,13 +68,13 @@ html {
 /*createbox*/
 .createbox {
   width: 400px;
-  height: 250px;
+  height: 300px;
   background: #111111bf;
   border-radius: 5px;
-  top: 65%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   padding: 30px 30px;
   align-items: center;
 }
@@ -104,7 +92,9 @@ html {
 .createbox input {
   width: 80%;
   margin-bottom: 16px;
-  margin-left: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*entry boxes*/
@@ -119,30 +109,29 @@ html {
   color: #fff;
 }
 
-
 /*placeholder color*/
 ::placeholder {
   color: #ffffffd9;
   text-shadow: 2px 2px 5px #111;
+  font-family: 'Cantarell', sans-serif;
 }
 
 /*links styles*/
 .links p {
   text-align: center;
-  line-height: 10px;
+  line-height: 25px;
   font-size: 15px;
+  font-weight: 400;
 }
 
 /*links position*/
 .links {
   position: absolute;
-  width: 300px;
-  height: 140px;
-  top: 80%;
-  left: 50%;
-  margin-left: -150px;
-  align-items: center;
-  border: 10px;
+  width: 24em;
+  height: 100px;
+  margin-top: 8px;
+  margin-right: -12em;
+  right: 50%;
 }
 
 /*links click here styles*/
@@ -160,15 +149,17 @@ body {
   text-shadow: 2px 2px 5px #111;
 }
 
-
 /*media width 440px or less*/
 @media only screen and (max-width: 440px) {
   .createbox {
-    width: 80%;
-    height: 50%;
+    width: 65%;
     display: block;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .links {
+    margin-top: 10px;
   }
 }
 
