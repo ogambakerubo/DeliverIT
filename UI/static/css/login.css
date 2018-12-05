@@ -164,7 +164,6 @@ body {
 /*media width 440px or less*/
 @media only screen and (max-width: 440px) {
   .createbox {
-    background: #111;
     width: 80%;
     height: 50%;
     display: block;
