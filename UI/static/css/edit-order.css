@@ -20,7 +20,6 @@ body {
   text-align: center;
 }
 
-
 /*hover effect on all buttons*/
 #btn:hover {
   box-shadow: 12px 12px 28px 6px #111;
@@ -125,8 +124,6 @@ select {
   background: #e24555;
   margin-right: -70px;
   width: 140px;
-
-
 }
 
 /*open sidenav*/
@@ -281,5 +278,4 @@ li {
     right: 75%;
   }
 }
-
 
