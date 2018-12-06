@@ -61,12 +61,15 @@ th {
   height: 35px;
   position: relative;
   color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
 }
 
 /*hover effect on view-order-btn*/
 #btn:hover {
   color: #b30da6;
   background: #fff;
+  border-color: #b30da6;
 }
 
 /*open sidenav*/
@@ -203,3 +206,4 @@ li {
     margin-right: auto;
   }
 }
+
