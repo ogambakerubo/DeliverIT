@@ -23,10 +23,11 @@ body {
 /*table size and position*/
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   position: absolute;
   top: 25%;
-  left: 10%;
+  left: 0;
+  right: 0;
 }
 
 /*cell borders*/
@@ -206,9 +207,10 @@ li {
     margin-right: auto;
   }
 
+  th:nth-of-type(1), td:nth-of-type(1),
+  th:nth-of-type(5), td:nth-of-type(5),
   th:nth-of-type(3), td:nth-of-type(3),
   th:nth-of-type(4), td:nth-of-type(4),
-  th:nth-of-type(5), td:nth-of-type(5),
   th:nth-of-type(6), td:nth-of-type(6),
   th:nth-of-type(7), td:nth-of-type(7){
     display: none;
