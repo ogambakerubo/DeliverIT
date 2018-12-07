@@ -211,8 +211,7 @@ li {
   th:nth-of-type(5), td:nth-of-type(5),
   th:nth-of-type(3), td:nth-of-type(3),
   th:nth-of-type(4), td:nth-of-type(4),
-  th:nth-of-type(6), td:nth-of-type(6),
-  th:nth-of-type(7), td:nth-of-type(7){
+  th:nth-of-type(6), td:nth-of-type(6) {
     display: none;
   }
 }
