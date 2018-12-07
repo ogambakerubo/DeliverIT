@@ -1,0 +1,210 @@
+/*Zoom style sheet*/
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-family: 'Cantarell', sans-serif;
+}
+
+/*all-orders header*/
+.name-registry {
+  font-size: 40px;
+  font-weight: 900;
+  color: #707070;
+  width: 250px;
+  height: 45px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -125px;
+  text-align: center;
+}
+
+/*table size and position*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+}
+
+/*cell borders*/
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/*grey and white table decorations*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*table header*/
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b30da6cc;
+  color: white;
+}
+
+/*view orders button*/
+.view-order-btn {
+  background-color: #b30da6;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  width: 100px;
+  height: 35px;
+  position: relative;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+/*hover effect on view-order-btn*/
+#btn:hover {
+  color: #b30da6;
+  background: #fff;
+  border-color: #b30da6;
+}
+
+/*open sidenav*/
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  box-shadow: 15px 0 30px -16px #707070;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: .65s;
+  background: #fff;
+}
+
+/*menu options*/
+.nav #options {
+  display: block;
+  padding: 15px 20px;
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #b30da6;
+  text-decoration: none;
+}
+
+/*menu options hover effect*/
+.nav #options:hover {
+  color: #fff;
+  background: #b30da6;
+  transition: 0.35s;
+}
+
+/*social media pins display*/
+.social {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+}
+
+/*social media pins decoration*/
+.social a {
+  text-decoration: none;
+}
+
+/*social media pins*/
+.pins {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 20px;
+}
+
+/*close sidenav*/
+.nav .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*sidenav bar transition effects*/
+#content {
+  padding: 10px;
+  transition: margin-left .65s;
+  overflow: hidden;
+  width: 100%;
+}
+
+/*navbar*/
+.navbar {
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 5px;
+  border-bottom: .15px solid #707070bf;
+  z-index: 4;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  left: 0;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+
+/*navbar items*/
+li {
+  float: none;
+  display: inline-block;
+}
+
+/*icon properties*/
+.slide a {
+  color: #b30da6;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+  padding-bottom: 5px;
+}
+
+/*menu logo*/
+#bars {
+  float: left;
+  margin-left: -8px;
+}
+
+/*search icon*/
+#search {
+  float: right;
+}
+
+/*navbar name*/
+.navbar-name {
+  font-family: 'Sonsie One', cursive;
+  color: #b30da6;
+}
+
+/*media width 440px*/
+@media only screen and (max-width: 440px) {
+
+  th:nth-of-type(3), td:nth-of-type(3),
+  th:nth-of-type(4), td:nth-of-type(4),
+  th:nth-of-type(5), td:nth-of-type(5),
+  th:nth-of-type(6), td:nth-of-type(6),
+  th:nth-of-type(7), td:nth-of-type(7),
+  th:nth-of-type(8), td:nth-of-type(8),
+  th:nth-of-type(2), td:nth-of-type(2){
+    display: none;
+  }
+
+}
