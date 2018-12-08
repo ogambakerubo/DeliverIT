@@ -28,7 +28,9 @@ body {
 
 /*hover effect on all buttons*/
 #btn:hover {
-  box-shadow: 5px 5px 10px -3px #111;
+  border-color: #b30da6;
+  color: #b30da6;
+  background-color: #fff;
 }
 
 /*company name-registry*/
@@ -86,20 +88,6 @@ body {
   color: #707070;
   font-size: 12px;
   text-align: center;
-}
-
-/*submit registry*/
-.register-btn input[type="submit"] {
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  height: 40px;
-  background: transparent;
-  color: #fff;
-  font-size: 16px;
-  border-size: 20px;
-  margin-bottom: 50px;
-  align-self: center;
 }
 
 /*placeholder color*/
@@ -241,4 +229,3 @@ li {
     margin-right: auto;
   }
 }
-

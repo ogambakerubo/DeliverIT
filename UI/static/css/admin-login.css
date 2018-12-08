@@ -63,6 +63,7 @@ a[href="admin-home.html"] {
 #btn:hover {
   background: #fff;
   color: #b30da6;
+  border-color: #b30da6;
 }
 
 /*createbox*/
@@ -162,4 +163,3 @@ body {
     margin-top: 10px;
   }
 }
-

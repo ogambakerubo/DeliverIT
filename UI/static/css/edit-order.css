@@ -20,10 +20,6 @@ body {
   text-align: center;
 }
 
-/*hover effect on all buttons*/
-#btn:hover {
-  box-shadow: 12px 12px 28px 6px #111;
-}
 
 /*table decorations*/
 table {
@@ -124,6 +120,20 @@ select {
   background: #e24555;
   margin-right: -70px;
   width: 140px;
+}
+
+/*cancel order hover effects*/
+.make-changes:hover {
+  border-color: #0bd37d;
+  background-color: #fff;
+  color: #0bd37d;
+}
+
+/*make changes hover effects*/
+.cancel-order:hover {
+  border-color: #e24555;
+  background-color: #fff;
+  color: #e24555;
 }
 
 /*open sidenav*/
@@ -278,4 +288,3 @@ li {
     right: 75%;
   }
 }
-

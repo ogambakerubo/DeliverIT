@@ -23,7 +23,9 @@ body {
 
 /*hover effect on all buttons*/
 #btn:hover {
-  box-shadow: 5px 5px 10px -3px #111;
+  border-color: #0bd37d;
+  background-color: #fff;
+  color: #0bd37d;
 }
 
 /*table decorations*/
